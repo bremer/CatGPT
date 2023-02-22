@@ -16,7 +16,7 @@ Try CatGPT at [catgpt.wvd.io](https://catgpt.wvd.io)
 
 ## Docker
 
-Build Docker Container containing a ngnix server:
+Build Docker Container containing a nginx server:
 ```
 docker build -t catgpt .
 ```
@@ -24,8 +24,9 @@ docker build -t catgpt .
 Run Docker Container:
 ```
 docker run --name catgpt -p 80:80 catgpt
-``` 
+```
 
+Type `http://localhost` into your browser. 
 
 ## How?
 The latest in pawtifurcial intelligence, CatGPT uses a purr-al network and an advanced hairballgorithm to come up with natural-sounding responses.
