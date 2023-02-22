@@ -14,6 +14,19 @@ Try CatGPT at [catgpt.wvd.io](https://catgpt.wvd.io)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/1536be40-5407-46cf-bc8b-c6b46910b7a3/deploy-status)](https://app.netlify.com/sites/catgpt/deploys)
 
+## Docker
+
+Build Docker Container containing a ngnix server:
+```
+docker build -t catgpt .
+```
+
+Run Docker Container:
+```
+docker run --name catgpt -p 80:80 catgpt
+``` 
+
+
 ## How?
 The latest in pawtifurcial intelligence, CatGPT uses a purr-al network and an advanced hairballgorithm to come up with natural-sounding responses.
 
